@@ -1,5 +1,9 @@
+# This program prints the # of years it takes to reach $100k and $1M from user input balance
+# the bank will double the money calculate the years and print
+
 balance = int(input("Enter starting balance: "))
 count = 0
+
 while balance < 100000:
     balance = balance * 2
     count += 1

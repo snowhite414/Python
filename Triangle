@@ -1,0 +1,10 @@
+# This program generates an isosceles triangle made of asterisks
+
+asterisk = "*"
+
+size = int(input("Enter the size of the equal sides in an isosceles triangle: "))
+i = 0
+while i < size:
+    print(asterisk)
+    asterisk += "*"
+    i += 1
